@@ -1,13 +1,27 @@
 # Zero-Build Slides
 
-A presentation engine designed for AI agents. Four plain JS files, no npm, no build step — serve from S3 and go.
+A presentation engine designed for AI agents. Four plain JS files, no npm, no build step — serve from any static hosting and go.
+
+## Install as Claude Code Skill
+
+```bash
+bunx @decocms/zero-build-slides
+```
+
+This scaffolds the presentation files into your project and installs the skill so Claude Code knows how to create and edit slide decks for you.
 
 ## Quick Start
 
 ```bash
-# Any static file server works
-python3 -m http.server 8000
-open http://localhost:8000
+# Serve locally
+bunx serve
+open http://localhost:3000
+```
+
+Or with npm scripts (after scaffolding):
+
+```bash
+npm start
 ```
 
 ## Architecture

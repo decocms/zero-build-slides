@@ -1,0 +1,13 @@
+{
+  "name": "zero-build-slides",
+  "version": "0.1.0",
+  "description": "Create, edit, and manage zero-build presentation decks using Preact + htm + Tailwind CDN. No npm, no build step — just plain JS files served from any static hosting.",
+  "author": {
+    "name": "decocms",
+    "url": "https://github.com/decocms"
+  },
+  "repository": "https://github.com/decocms/zero-build-slides",
+  "license": "MIT",
+  "keywords": ["slides", "presentation", "ai-agent", "zero-build", "preact"],
+  "skills": "./skills/"
+}
