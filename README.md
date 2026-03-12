@@ -8,20 +8,13 @@ A presentation engine designed for AI agents. Four plain JS files, no npm, no bu
 bunx @decocms/zero-build-slides
 ```
 
-This scaffolds the presentation files into your project and installs the skill so Claude Code knows how to create and edit slide decks for you.
+This installs the skill so Claude Code (and 40+ other agents) knows how to create and edit slide decks for you. Then just ask your agent to create a presentation.
 
 ## Quick Start
 
 ```bash
-# Serve locally
 bunx serve
 open http://localhost:3000
-```
-
-Or with npm scripts (after scaffolding):
-
-```bash
-npm start
 ```
 
 ## Architecture

@@ -10,12 +10,6 @@
   "files": [
     "bin/",
     "skills/",
-    "index.html",
-    "app.js",
-    "layouts.js",
-    "data.js",
-    "themes.js",
-    "context.js",
     "SKILL.md",
     "README.md"
   ],

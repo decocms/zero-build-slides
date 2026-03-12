@@ -268,7 +268,7 @@ function Router() {
       <div style=${{ marginTop: '48px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px', maxWidth: '480px' }}>
         <span style=${{ fontSize: '11px', color: 'rgba(250,249,249,0.25)', textTransform: 'uppercase', letterSpacing: '1px' }}>Install as Claude Code skill</span>
         <code style=${{ fontSize: '14px', color: '#D0EC1A', background: 'rgba(208,236,26,0.08)', padding: '12px 24px', borderRadius: '8px', border: '1px solid rgba(208,236,26,0.15)', fontFamily: "'Commit Mono', ui-monospace, monospace", letterSpacing: '-0.3px' }}>bunx @decocms/zero-build-slides</code>
-        <p style=${{ fontSize: '13px', color: 'rgba(250,249,249,0.35)', textAlign: 'center', lineHeight: 1.6 }}>Scaffolds the presentation files into your project and teaches Claude Code how to create slide decks for you.</p>
+        <p style=${{ fontSize: '13px', color: 'rgba(250,249,249,0.35)', textAlign: 'center', lineHeight: 1.6 }}>Installs the skill so your agent knows how to create and edit slide decks. Works with Claude Code, Cursor, Copilot, and 40+ agents.</p>
       </div>
 
       <!-- Links -->
