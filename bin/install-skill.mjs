@@ -46,7 +46,7 @@ console.log(`\n  ${copied} copied, ${skipped} skipped\n`);
 console.log('\x1b[36mInstalling Claude Code skill...\x1b[0m\n');
 
 try {
-  execSync('npx skills add @decocms/zero-build-slides', {
+  execSync('npx skills add decocms/zero-build-slides', {
     stdio: 'inherit',
     cwd,
   });
@@ -54,7 +54,7 @@ try {
 } catch {
   console.log('\n\x1b[33mCould not install skill automatically.\x1b[0m');
   console.log('You can install it manually:\n');
-  console.log('  npx skills add @decocms/zero-build-slides\n');
+  console.log('  npx skills add decocms/zero-build-slides\n');
 }
 
 // --- Next steps ---
