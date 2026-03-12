@@ -263,6 +263,30 @@ function Router() {
           })}
         </div>
       </div>
+
+      <!-- Install as skill -->
+      <div style=${{ marginTop: '48px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px', maxWidth: '480px' }}>
+        <span style=${{ fontSize: '11px', color: 'rgba(250,249,249,0.25)', textTransform: 'uppercase', letterSpacing: '1px' }}>Install as Claude Code skill</span>
+        <code style=${{ fontSize: '14px', color: '#D0EC1A', background: 'rgba(208,236,26,0.08)', padding: '12px 24px', borderRadius: '8px', border: '1px solid rgba(208,236,26,0.15)', fontFamily: "'Commit Mono', ui-monospace, monospace", letterSpacing: '-0.3px' }}>bunx @decocms/zero-build-slides</code>
+        <p style=${{ fontSize: '13px', color: 'rgba(250,249,249,0.35)', textAlign: 'center', lineHeight: 1.6 }}>Scaffolds the presentation files into your project and teaches Claude Code how to create slide decks for you.</p>
+      </div>
+
+      <!-- Links -->
+      <div style=${{ marginTop: '32px', display: 'flex', gap: '20px', alignItems: 'center' }}>
+        <a href="https://github.com/decocms/zero-build-slides" target="_blank" rel="noopener"
+          style=${{ fontSize: '13px', color: 'rgba(250,249,249,0.4)', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '6px', transition: 'color 0.15s ease' }}
+          onMouseEnter=${e => e.currentTarget.style.color = 'rgba(250,249,249,0.7)'}
+          onMouseLeave=${e => e.currentTarget.style.color = 'rgba(250,249,249,0.4)'}>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.npmjs.com/package/@decocms/zero-build-slides" target="_blank" rel="noopener"
+          style=${{ fontSize: '13px', color: 'rgba(250,249,249,0.4)', textDecoration: 'none', transition: 'color 0.15s ease' }}
+          onMouseEnter=${e => e.currentTarget.style.color = 'rgba(250,249,249,0.7)'}
+          onMouseLeave=${e => e.currentTarget.style.color = 'rgba(250,249,249,0.4)'}>
+          npm
+        </a>
+      </div>
     </div>`;
 }
 
